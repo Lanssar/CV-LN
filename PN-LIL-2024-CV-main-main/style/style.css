@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background: #765432;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#feuille {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0);
+}
+
+#feuille #gauche {
+    position: relative;
+    background: #767632;
+    padding: 40px;
+}
+
+#feuille #droit {
+    position: relative;
+    background: #327676;
+    padding: 40px;
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15vh;
+    height: 20vh;
+}
+
+
+#presentation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#presentation h2 {
+    color: #000000;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#competence li {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-align: center;
+
+}
+
+#competence h2 {
+    text-align: justify;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    color: #323276;
+    
+}
+#Titre {
+    color: #323276;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    border: #000000 solid 2px;
+}
+
+#droit h2 {
+    color: #f10e0e91;
+    text-align: center;
+    vertical-align: auto;
+}
+
+#société {
+    color: #767632
+}
+
+.Groupe {
+    idth: 60%;
+    background-color: #763232;
+    padding: 30px;
+    margin: 30px;
+    border: rgb(255, 0, 0) solid 2px;
+    border-radius: 40px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 5px 0px;
+}
