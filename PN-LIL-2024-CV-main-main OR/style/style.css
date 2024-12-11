@@ -3,15 +3,24 @@
     margin: 0;;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    --color1:#A59D84;
+    --color2:#C1BAA1;
+    --color3:#D7D3BF;
+    --color4:#ECEBDE;
 }
 
 body {
-    background: #765432;
+    background: var(--color1);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+#information{
+    
 }
 
 
@@ -28,13 +37,13 @@ body {
 
 #feuille #gauche {
     position: relative;
-    background: #767632;
+    background: var(--color4);
     padding: 40px;
 }
 
 #feuille #droit {
     position: relative;
-    background: #327676;
+    background: var(--color3);
     padding: 40px;
 }
 
@@ -44,6 +53,9 @@ body {
     justify-content: center;
     width: 15vh;
     height: 20vh;
+    clip-path: circle(50%);
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -67,7 +79,9 @@ body {
     margin-bottom: 15px;
     text-align: justify;
     text-align: center;
-
+    color: #000000;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -76,11 +90,11 @@ body {
     text-align: center;
     margin-top:30px;
     margin-bottom: 30px;
-    color: #323276;
+    color: #000000;
     
 }
 #Titre {
-    color: #323276;
+    color: #000000;
     font-size: 1.5em;
     margin-top: 20px;
     text-align: center;
@@ -88,21 +102,31 @@ body {
 }
 
 #droit h2 {
-    color: #f10e0e91;
+    color: var(--color4);
     text-align: center;
     vertical-align: auto;
+    margin-bottom: 20px;
+    text-decoration: solid;
+    text-decoration-color: #000000;
+    text-decoration-line: underline;
 }
 
 #société {
-    color: #767632
+    color: var(--color4)
 }
 
 .Groupe {
-    idth: 60%;
-    background-color: #763232;
+    
+    background-color: var(--color1);
     padding: 30px;
-    margin: 30px;
-    border: rgb(255, 0, 0) solid 2px;
+    margin: 20px;
+    border: var(--color2) solid 2px;
     border-radius: 40px;
     box-shadow: rgb(0, 0, 0) 2px 2px 5px 0px;
 }
+
+#Projet p {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
