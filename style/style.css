@@ -19,9 +19,6 @@ body {
     min-height: 100vh;
 }
 
-#information{
-    
-}
 
 
 #feuille {
@@ -90,9 +87,9 @@ body {
     text-align: center;
     margin-top:30px;
     margin-bottom: 30px;
-    color: #000000;
-    
+    color: #000000; 
 }
+
 #Titre {
     color: #000000;
     font-size: 1.5em;
@@ -130,3 +127,46 @@ body {
     color: #ffffff;
 }
 
+
+#Langue li {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#Langue h2 {
+    text-align: justify;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    color: #000000; 
+}
+
+#info li {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#info h2 {
+    text-align: justify;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    color: #000000; 
+}
+
+#icon {
+    text-align: justify;
+    text-align: center;
+    margin-top: 20px;
+    
+}
